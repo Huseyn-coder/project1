@@ -1,0 +1,103 @@
+header div h1 {
+    background-color: rgb(2, 126, 109);
+   color: white;
+       font-size: 20px;
+       font-weight: bold
+       text-align: left;
+       padding: 20px;
+   }
+   ul {
+       text-align: right;
+       display: flex;
+       gap: 50px;
+       text-decoration: none;
+       margin-top: 20px;
+   }
+   a {
+       text-decoration: none;
+   }
+   header {
+       display: flex;
+       justify-content: space-around;
+       border-bottom: 1px solid rgb(96, 175, 165);
+       background-color: white;
+   }
+   .section1 {
+       width: 540px;
+       height: 400px;
+       margin-top: 25px;
+       margin-left: 200px;
+       border: 1px solid rgb(96, 175, 165);
+       background-color: white;
+   }
+   body h2 {
+       color: rgb(2, 126, 109);
+       font-size: 25px;
+       font-weight: bold;
+       text-align: left;
+       padding: 20px;
+   }
+   .section1 hr {
+       width: 500px;
+   }
+    .section2 {
+           width: 270px;
+           height: 170px;
+           border: 1px solid rgb(96, 175, 165);
+           position: absolute;
+           top: 85px;
+           left: 780px;
+           background-color: white;
+       }
+   .section2 h3 {
+       color: rgb(2, 126, 109);
+       font-size: 20px;
+       font-weight: bold;
+       text-align: center;
+       padding: 20px;
+   }
+   .section2 hr {
+       width: 200px;
+       color: 1px solid rgb(2, 126, 109);
+       margin-top: 0px;
+       margin-bottom: 20px;
+   }
+   .section2 div {
+       text-align: center;
+   }
+   .section3 {
+       width: 100%;
+       background-color: grey;
+       height: 60px;
+       margin-top: 15px;
+   }
+   .section3 h5 {
+       text-align: center;
+       padding-top: 35px;
+       font-size: small;
+       color: white;
+   }
+   input {
+    width: 500px;
+    margin-top: 8px;
+    color: rgb(96, 175, 165);
+
+   }
+   .input1 {
+    margin-left: 20px;
+    color: rgb(96, 175, 165);
+   }
+   .mesaj input {
+    height: 100px;
+    color: rgb(96, 175, 165);
+   }
+   .button button {
+    margin-top: 10px;
+    background-color: rgb(2, 126, 109);
+    color: white;
+    width: 100px;
+    height: 30px;
+   }
+   body {
+    background-image: url(./concrete_seamless.png);
+}

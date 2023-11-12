@@ -1,0 +1,87 @@
+header div h1 {
+    background-color: rgb(2, 126, 109);
+   color: white;
+       font-size: 20px;
+       font-weight: bold
+       text-align: left;
+       padding: 20px;
+   }
+   ul {
+       text-align: right;
+       display: flex;
+       gap: 50px;
+       text-decoration: none;
+       margin-top: 20px;
+   }
+   a {
+       text-decoration: none;
+   }
+   header {
+       display: flex;
+       justify-content: space-around;
+       border-bottom: 1px solid rgb(96, 175, 165);
+       background-color: white;
+   }
+   .section1 {
+       width: 540px;
+       height: 600px;
+       margin-top: 30px;
+       margin-left: 200px;
+       border: 1px solid rgb(96, 175, 165);
+       background-color: white;
+   }
+   body h2 {
+       color: rgb(2, 126, 109);
+       font-size: 25px;
+       font-weight: bold;
+       text-align: left;
+       padding: 20px;
+   }
+   .section1 hr {
+       width: 500px;
+   }
+       .section2 {
+           width: 270px;
+           height: 170px;
+           border: 1px solid rgb(96, 175, 165);
+           position: absolute;
+           top: 90px;
+           left: 770px;
+           background-color: white;
+       }
+   .section2 h3 {
+       color: rgb(2, 126, 109);
+       font-size: 20px;
+       font-weight: bold;
+       text-align: center;
+       padding: 20px;
+   }
+   .section2 hr {
+       width: 200px;
+       color: 1px solid rgb(2, 126, 109);
+       margin-top: 0px;
+       margin-bottom: 20px;
+   }
+   .section2 div {
+       text-align: center;
+   }
+   .foto {
+   display: flex;
+    text-align: center;
+    gap: 30px;
+    padding-left: 25px;
+   }
+   .foto2 {
+    display: flex;
+    text-align: center;
+    gap: 30px;
+    padding-left: 25px;
+    margin-top: 25px;
+   }
+   .foto3 {
+    padding-left: 25px;
+    margin-top: 25px;
+   }
+   body {
+    background-image: url(./concrete_seamless.png);
+}

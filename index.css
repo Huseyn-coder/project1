@@ -23,9 +23,10 @@ header {
     background-color: white;
 }
 .section1 {
-    width: 540px;
+    width: 600px;
+    height: 400px;;
     margin-top: 30px;
-    margin-left: 200px;
+    margin-left: 235px;
     border: 1px solid rgb(96, 175, 165);
     background-color: white;
 }
@@ -37,7 +38,7 @@ body h2 {
     padding: 20px;
 }
 .section1 hr {
-    width: 500px;
+    width: 550px;
 }
 .section1 img {
     float:
@@ -60,7 +61,7 @@ body h2 {
         border: 1px solid rgb(96, 175, 165);
         position: absolute;
         top: 90px;
-        left: 780px;
+        right: 220px;
         background-color: white;
     }
 .section2 h3 {
@@ -83,14 +84,19 @@ body h2 {
     width: 100%;
     background-color: grey;
     height: 60px;
-    margin-top: 30px;
+    margin-top: 60px;
 }
 .section3 h5 {
     text-align: center;
-    padding-top: 35px;
+    padding-top: 40px;
     font-size: small;
     color: white;
 }
 body {
     background-image: url(./concrete_seamless.png);
+}
+header {
+    position: sticky;
+    top: 0px;
+    z-index: 2;
 }

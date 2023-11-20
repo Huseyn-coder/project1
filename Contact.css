@@ -23,10 +23,10 @@ header div h1 {
        background-color: white;
    }
    .section1 {
-       width: 540px;
-       height: 400px;
-       margin-top: 25px;
-       margin-left: 200px;
+       width: 600px;
+       height: 450px;
+       margin-top: 30px;
+       margin-left: 235px;
        border: 1px solid rgb(96, 175, 165);
        background-color: white;
    }
@@ -38,15 +38,15 @@ header div h1 {
        padding: 20px;
    }
    .section1 hr {
-       width: 500px;
+       width: 550px;
    }
     .section2 {
            width: 270px;
            height: 170px;
            border: 1px solid rgb(96, 175, 165);
            position: absolute;
-           top: 85px;
-           left: 780px;
+           top: 90px;
+           right: 220px;
            background-color: white;
        }
    .section2 h3 {
@@ -88,7 +88,7 @@ header div h1 {
     color: rgb(96, 175, 165);
    }
    .mesaj input {
-    height: 100px;
+    height: 150px;
     color: rgb(96, 175, 165);
    }
    .button button {
@@ -100,4 +100,9 @@ header div h1 {
    }
    body {
     background-image: url(./concrete_seamless.png);
+}
+header {
+    position: sticky;
+    top: 0px;
+    z-index: 2;
 }
